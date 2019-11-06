@@ -18,7 +18,7 @@ public class Main extends Application {
 			FXMLLoader loader=new FXMLLoader(Main.class.getResource("loginCherry.fxml"));
             AnchorPane pane=loader.load();
             Scene scene=new Scene(pane);
-            scene.getStylesheets().addAll(Main.class.getResource("application.css").toExternalForm());
+           //scene.getStylesheets().addAll(Main.class.getResource("application.css").toExternalForm());
             stage.setTitle("Sign In");
             stage.setScene(scene);
             stage.initStyle(StageStyle.UNDECORATED);
