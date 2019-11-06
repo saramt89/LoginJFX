@@ -93,8 +93,7 @@ public class ControladorSplash {
 				translateTransition11.setOnFinished(event2 -> {
 
 					helloLabel.setVisible(true);
-					TranslateTransition translateTransition111 = new TranslateTransition(Duration.seconds(1),
-							helloLabel);
+					TranslateTransition translateTransition111 = new TranslateTransition(Duration.seconds(1), helloLabel);
 					translateTransition111.setByX(-900);
 					translateTransition111.play();
 
@@ -114,7 +113,6 @@ public class ControladorSplash {
 							fadeTransition1.play();
 
 							fadeTransition1.setOnFinished(event5 -> {
-//										main.closeStage();
 								Stage thisStage = (Stage) rootPane.getScene().getWindow();
 								thisStage.close();
 								showHome();
