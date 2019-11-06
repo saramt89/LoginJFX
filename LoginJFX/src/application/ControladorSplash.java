@@ -55,7 +55,7 @@ public class ControladorSplash {
 	}
 
 	public void initialize() {
-
+		
 		TranslateTransition translateTransition = new TranslateTransition(Duration.seconds(0.1), logoLabel);
 		translateTransition.setByY(700);
 		translateTransition.play();
@@ -75,7 +75,7 @@ public class ControladorSplash {
 			translateTransition1.play();
 
 //			translateTransition1.setOnFinished(event1 -> {
-			ScaleTransition st = new ScaleTransition(Duration.seconds(2), logoLabel);
+			ScaleTransition st = new ScaleTransition(Duration.seconds(1), logoLabel);
 			st.setByX(1);
 			st.setByY(1);
 			st.setCycleCount(2);

@@ -10,6 +10,7 @@ import javafx.stage.StageStyle;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.text.Font;
 
 public class Main extends Application {
 	
@@ -33,7 +34,11 @@ public class Main extends Application {
 
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("splash.fxml"));
 			AnchorPane pane = loader.load();
-			Scene scene = new Scene(pane);
+			Scene scene = new Scene(pane);			
+
+			// adding Google fonts
+			scene.getStylesheets().add("https://fonts.googleapis.com/css?family=McLaren");
+			
 			stage.initStyle(StageStyle.UNDECORATED);
 			stage.setScene(scene);
 			stage.show();

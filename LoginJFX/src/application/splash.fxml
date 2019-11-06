@@ -33,7 +33,7 @@
                         <Insets top="80.0" />
                      </VBox.margin>
                   </ImageView>
-                  <Label fx:id="nameLabel" alignment="CENTER" text="BLOSSOM">
+                  <Label fx:id="nameLabel" alignment="CENTER" style="-fx-font-family: McLaren; -fx-font-size: 35;" text="BLOSSOM">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
@@ -41,7 +41,7 @@
                         <Insets bottom="10.0" top="20.0" />
                      </VBox.margin>
                      <font>
-                        <Font name="MV Boli" size="30.0" />
+                        <Font name="Forte" size="30.0" />
                      </font>
                   </Label>
                   <Label fx:id="helloLabel" text="WELCOME TO MY APPLICATION!">
