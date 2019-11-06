@@ -3,6 +3,7 @@ package application;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
@@ -18,8 +19,9 @@ public class Main extends Application {
             AnchorPane pane=loader.load();
             Scene scene=new Scene(pane);
             scene.getStylesheets().addAll(Main.class.getResource("application.css").toExternalForm());
-            stage.setTitle("signin");
+            stage.setTitle("Sign In");
             stage.setScene(scene);
+            stage.initStyle(StageStyle.UNDECORATED);
             stage.show();			
 			
 		} catch(Exception e) {
