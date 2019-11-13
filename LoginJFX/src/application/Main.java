@@ -24,9 +24,29 @@ public class Main extends Application {
 
 		stage = myStage;
 
-		VentanaPrincipal();
+		//VentanaPrincipal();
+		homepage();
 
 	}
+	
+	private void homepage() {
+		
+		try {
+		
+			FXMLLoader loader =new FXMLLoader(getClass().getResource("Homepage.fxml"));
+	        AnchorPane pane=loader.load();
+	        Scene scene=new Scene(pane);
+	        stage.setTitle("Home page");
+	        stage.setScene(scene);
+	        stage.setMinHeight(700);
+	        stage.setMinWidth(700);
+	        stage.show();
+	        
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 
 	private void VentanaPrincipal() {
 
