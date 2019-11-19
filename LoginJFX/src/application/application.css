@@ -1,0 +1,21 @@
+.boton1:hover {
+    -fx-background-color: #ff895e;   
+}
+.boton2:hover {
+    -fx-background-color: #ff895e;   
+}
+.boton3:hover {
+    -fx-background-color: #ff895e;   
+}
+
+.boton1{
+	-fx-background-color: #885C53; 
+}
+
+.boton2{
+	-fx-background-color: #FFEFEF; 
+}
+
+.boton3{
+	-fx-background-color: #DD9C7D; 
+}

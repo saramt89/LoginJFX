@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
    <children>
       <Pane fx:id="pane1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <Pane fx:id="pane2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
@@ -46,7 +46,7 @@
                               <Insets top="10.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" text="Sign In" textFill="DARKGREEN">
+                        <Label alignment="CENTER" text="Sign In" textFill="#6fb695">
                            <font>
                               <Font name="Microsoft JhengHei UI Light" size="28.0" />
                            </font>
@@ -62,7 +62,7 @@
                               <Insets left="10.0" right="10.0" />
                            </VBox.margin>
                         </Label>
-                        <JFXTextField focusColor="DARKGREEN" labelFloat="true" promptText="Username">
+                        <JFXTextField focusColor="#6fb695" labelFloat="true" promptText="Username">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -70,12 +70,12 @@
                               <Insets left="10.0" right="10.0" top="5.0" />
                            </VBox.margin>
                         </JFXTextField>
-                        <JFXPasswordField focusColor="DARKGREEN" labelFloat="true" promptText="Password">
+                        <JFXPasswordField focusColor="#6fb695" labelFloat="true" promptText="Password">
                            <VBox.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" />
                            </VBox.margin>
                         </JFXPasswordField>
-                        <JFXButton alignment="CENTER" buttonType="RAISED" prefHeight="26.0" prefWidth="900.0" style="-fx-background-color: #FFBBB6; -fx-background-radius: 5;" text="Get started">
+                        <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#abrirHomepage" prefHeight="26.0" prefWidth="900.0" style="-fx-background-color: #DD9C7D; -fx-background-radius: 5;" text="Get started">
                            <VBox.margin>
                               <Insets left="10.0" right="10.0" />
                            </VBox.margin>
