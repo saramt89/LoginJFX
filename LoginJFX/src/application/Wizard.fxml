@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="800.0" stylesheets="@application2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorWizard">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="336.0" layoutY="77.0" text="PAGINA 1" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font></Label>
+            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@backpack.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="330.0" layoutY="77.0" text="PAGINA 2" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font></Label>
+            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@calendar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="330.0" layoutY="77.0" text="PAGINA 3" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font></Label>
+            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@weather.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane4" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="250.0" layoutY="77.0" text="Ha terminado el tutorial" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="350.0" layoutY="200.0" onAction="#showLogin" style="-fx-background-color: #00000020; -fx-background-radius: 30;" text="LOG IN" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="600.0" layoutY="400.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="150.0" layoutY="400.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <Label fx:id="countlable" alignment="CENTER" layoutX="200.0" layoutY="415.0" prefHeight="17.0" prefWidth="400.0" text="1/4" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

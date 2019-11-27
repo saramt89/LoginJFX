@@ -13,11 +13,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="680.0" prefWidth="1024.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador_homepage">
+<AnchorPane prefHeight="500.0" prefWidth="800.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador_homepage">
    <children>
       <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <VBox BorderPane.alignment="CENTER">
+            <VBox minWidth="-Infinity" BorderPane.alignment="CENTER">
                <children>
                   <AnchorPane prefHeight="55.0" style="-fx-background-color: #DD9C7D;">
                      <children>
@@ -28,7 +28,7 @@
                         </ImageView>
                      </children>
                   </AnchorPane>
-                  <AnchorPane prefHeight="250.0">
+                  <AnchorPane prefHeight="200.0">
                      <children>
                         <Pane fx:id="pane1" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                         <Pane fx:id="pane2" prefHeight="200.0" prefWidth="200.0" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
@@ -96,41 +96,41 @@
          </center>
       </BorderPane>
       <AnchorPane fx:id="opacityPane" layoutX="47.0" layoutY="340.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <AnchorPane fx:id="drawerPane" layoutX="-1.0" layoutY="52.0" prefWidth="200.0" style="-fx-background-color: #6FB695;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="drawerPane" layoutX="-1.0" layoutY="52.0" prefWidth="170.0" style="-fx-background-color: #6FB695;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <VBox style="-fx-background-color: #6FB695;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="ABOUT" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="ABOUT" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="EXPERIENCES" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="EXPERIENCES" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton alignment="CENTER" contentDisplay="CENTER" prefHeight="181.0" prefWidth="326.0" text="ITINERARIES" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="ITINERARIES" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="FORECAST" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="FORECAST" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="JAPAN RAIL PASS" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="JAPAN RAIL PASS" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="TRAVEL TIPS" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="TRAVEL TIPS" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="CONTACT US" textFill="WHITE">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="181.0" prefWidth="326.0" text="CONTACT US" textFill="WHITE">
                      <font>
                         <Font size="17.0" />
                      </font>

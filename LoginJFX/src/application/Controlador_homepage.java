@@ -23,7 +23,7 @@ public class Controlador_homepage {
 
 		opacityPane.setVisible(false);
 
-		TranslateTransition translateTransition = new TranslateTransition(Duration.seconds(0.5), drawerPane);
+		TranslateTransition translateTransition = new TranslateTransition(Duration.seconds(0.1), drawerPane);
 		translateTransition.setByX(-200);
 		translateTransition.play();
 

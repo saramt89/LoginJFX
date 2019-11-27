@@ -23,10 +23,27 @@ public class Main extends Application {
 	public void start(Stage myStage) throws Exception {
 
 		stage = myStage;
-
+		
+		//wizard();
 		VentanaPrincipal();
 		//homepage();
 
+	}
+	
+	private void wizard() {
+		
+		try {
+		
+			FXMLLoader loader =new FXMLLoader(getClass().getResource("Wizard.fxml"));
+	        AnchorPane pane=loader.load();
+	        Scene scene=new Scene(pane);
+	        stage.initStyle(StageStyle.UNDECORATED);
+	        stage.setScene(scene);
+	        stage.show();
+	        
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	private void homepage() {
@@ -37,6 +54,7 @@ public class Main extends Application {
 	        AnchorPane pane=loader.load();
 	        Scene scene=new Scene(pane);
 	        stage.setTitle("Home page");
+	        stage.initStyle(StageStyle.UNDECORATED);
 	        stage.setScene(scene);
 	        stage.setMinHeight(700);
 	        stage.setMinWidth(700);
@@ -58,7 +76,7 @@ public class Main extends Application {
 
 			// adding Google fonts
 			scene.getStylesheets().add("https://fonts.googleapis.com/css?family=McLaren");
-			
+			stage.setTitle("Splash");
 			stage.initStyle(StageStyle.UNDECORATED);
 			stage.setScene(scene);
 			stage.show();
