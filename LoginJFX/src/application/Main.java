@@ -11,7 +11,15 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Font;
-
+/**
+ * Aplicacion de JavaFx que se incia con un splash, seguida de un wizard con una breve ayuda al usuario.
+ * A continuacion se abre un login, para dar paso a un homepage una vez logueado el usuario.
+ * @author Sara
+ * @see Controlador
+ * @see ControladorSplash
+ * @see ControladorWizard
+ * @see Controlador_homepage
+ */
 public class Main extends Application {
 	
 	Stage stage;

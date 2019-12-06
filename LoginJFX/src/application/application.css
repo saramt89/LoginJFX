@@ -19,3 +19,7 @@
 .boton3{
 	-fx-background-color: #DD9C7D; 
 }
+.jfx-button:hover{
+	-fx-background-color: #ff895e; 
+}
+

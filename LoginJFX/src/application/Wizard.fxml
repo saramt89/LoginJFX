@@ -11,11 +11,11 @@
    <children>
       <AnchorPane fx:id="pane1" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="336.0" layoutY="77.0" text="PAGINA 1" textFill="WHITE">
+            <Label layoutX="320.0" layoutY="77.0" text="ITINERARIES" textFill="WHITE">
                <font>
                   <Font size="28.0" />
                </font></Label>
-            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label layoutX="345.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Plan your itineraries" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
             <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@backpack.png" />
@@ -24,11 +24,11 @@
       </AnchorPane>
       <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="330.0" layoutY="77.0" text="PAGINA 2" textFill="WHITE">
+            <Label layoutX="330.0" layoutY="77.0" text="SCHEDULE" textFill="WHITE">
                <font>
                   <Font size="28.0" />
                </font></Label>
-            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label layoutX="340.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Schedule your visits" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
             <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@calendar.png" />
@@ -38,11 +38,11 @@
       </AnchorPane>
       <AnchorPane fx:id="pane3" layoutX="143.0" layoutY="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="330.0" layoutY="77.0" text="PAGINA 3" textFill="WHITE">
+            <Label layoutX="340.0" layoutY="77.0" text="FORECAST" textFill="WHITE">
                <font>
                   <Font size="28.0" />
                </font></Label>
-            <Label layoutX="300.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label layoutX="330.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="Consult the weather forecast" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
             <ImageView fitHeight="119.0" fitWidth="124.0" layoutX="336.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@weather.png" />
