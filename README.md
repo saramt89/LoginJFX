@@ -1,4 +1,4 @@
-# La aplicacion completa esta en la rama wizard
+La aplicacion completa esta en la rama wizard
 
 # Splash
 ![](https://github.com/saramt89/LoginJFX/blob/wizard/LoginJFX/splash.JPG)
