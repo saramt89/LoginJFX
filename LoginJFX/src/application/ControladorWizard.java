@@ -96,6 +96,7 @@ public class ControladorWizard {
 	    thisStage.close();	
 	}
 	
+	@FXML
 	public void showLogin() {
 		try {
 			cerrarVentana();

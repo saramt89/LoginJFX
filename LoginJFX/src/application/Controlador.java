@@ -13,6 +13,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+//Controlador del login, es el que va pasando las imagenes
 public class Controlador {
 
 	@FXML
@@ -31,13 +32,13 @@ public class Controlador {
 	AnchorPane rootPane;
 
 	public void initialize() {
-
+		//cargo las imagenes
 		pane1.setStyle("-fx-background-image: url('application/1.jpg')");
 		pane2.setStyle("-fx-background-image: url('application/2.jpg')");
 		pane3.setStyle("-fx-background-image: url('application/3.jpg')");
 		pane4.setStyle("-fx-background-image: url('application/4.jpg')");
 
-		backgroundAnimation();
+		backgroundAnimation();//hace la animacion para pasar las imagenes, creada mas abajo
 
 	}
 	

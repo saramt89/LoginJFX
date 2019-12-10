@@ -24,8 +24,6 @@ public class Main extends Application {
 	
 	Stage stage;
 
-	@FXML
-	Label logoLabel;
 
 	@Override
 	public void start(Stage myStage) throws Exception {
@@ -36,43 +34,7 @@ public class Main extends Application {
 		VentanaPrincipal();
 		//homepage();
 
-	}
-	
-	private void wizard() {
-		
-		try {
-		
-			FXMLLoader loader =new FXMLLoader(getClass().getResource("Wizard.fxml"));
-	        AnchorPane pane=loader.load();
-	        Scene scene=new Scene(pane);
-	        stage.initStyle(StageStyle.UNDECORATED);
-	        stage.setScene(scene);
-	        stage.show();
-	        
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	private void homepage() {
-		
-		try {
-		
-			FXMLLoader loader =new FXMLLoader(getClass().getResource("Homepage.fxml"));
-	        AnchorPane pane=loader.load();
-	        Scene scene=new Scene(pane);
-	        stage.setTitle("Home page");
-	        stage.initStyle(StageStyle.UNDECORATED);
-	        stage.setScene(scene);
-	        stage.setMinHeight(700);
-	        stage.setMinWidth(700);
-	        stage.show();
-	        
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
+	}		
 
 	private void VentanaPrincipal() {
 
